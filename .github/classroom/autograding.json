@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "max",
+      "setup": "make build",
+      "run": "./build unit-tests max",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "size",
+      "setup": "make build",
+      "run": "./build/unit-tests size",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "largest",
+      "setup": "make build",
+      "run": "./build/unit-tests largest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
