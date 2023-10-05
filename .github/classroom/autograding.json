@@ -3,7 +3,7 @@
     {
       "name": "max",
       "setup": "make build",
-      "run": "./build/unit-tests/max",
+      "run": "./build/unit-tests max",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -13,7 +13,7 @@
     {
       "name": "size",
       "setup": "make build",
-      "run": "./build/unit-tests/size",
+      "run": "./build/unit-tests size",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "largest",
       "setup": "make build",
-      "run": "./build/unit-tests/largest",
+      "run": "./build/unit-tests largest",
       "input": "",
       "output": "",
       "comparison": "exact",
