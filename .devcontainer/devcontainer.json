@@ -1,0 +1,27 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/cpp",
+	"features": {},
+	// NOTE: help students that cannot merge using the vscode git extension, as it will
+	// not tell that you need to set this option manually.
+	"postCreateCommand": "git config merge.rebase false",
+	"postStartCommand": "git config merge.rebase false",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"github.classroom",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools",
+				"ms-vscode.makefile-tools",
+				"cheshirekow.cmake-format",
+				"formulahendry.code-runner",
+				"GitHub.codespaces",
+				"GitHub.vscode-pull-request-github",
+				"jeff-hykin.better-cpp-syntax",
+				"ms-vscode.cpptools-extension-pack",
+				"yzhang.markdown-all-in-one",
+				"tomoki1207.pdf"
+			]
+		}
+	}
+}
