@@ -23,7 +23,7 @@ TEST_CASE("max", "[max]") {
   }
   {
     int numbers[] = {-2, -5, -42, -67, -100, -1};
-    REQUIRE(max(numbers, 1) == -1);
+    REQUIRE(max(numbers, 6) == -1);
   }
   {
     int numbers[] = {0, 0, 0, 0, 0, 0, 0, 0};
